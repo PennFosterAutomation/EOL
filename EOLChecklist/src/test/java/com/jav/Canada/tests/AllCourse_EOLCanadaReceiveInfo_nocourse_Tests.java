@@ -28,7 +28,7 @@ public class AllCourse_EOLCanadaReceiveInfo_nocourse_Tests {
     
     @BeforeClass
     public void initialsettings() {
-        test.setUpDataFile("testData/integration_testData.yml");
+        test.setUpDataFile("testData/integration_testData_Canada.yml");
         Utilities.createExcel();
     }
 
@@ -63,8 +63,8 @@ public class AllCourse_EOLCanadaReceiveInfo_nocourse_Tests {
 	@Test(dependsOnMethods = "getNumberOfCourseAvailable")
     public void Test() throws IOException {
 		
-		if (Utilities.getYamlValue("DomesticURLReceiveInformationnocourse.RunType").equalsIgnoreCase("Selected")){
-			for (initialCounter=1; initialCounter<=Integer.parseInt(Utilities.getYamlValue("DomesticURLReceiveInformationnocourse.TotalCource"));initialCounter++)
+		if (Utilities.getYamlValue("CanadaURLReceiveInformationnocourse.RunType").equalsIgnoreCase("Selected")){
+			for (initialCounter=1; initialCounter<=Integer.parseInt(Utilities.getYamlValue("CanadaURLReceiveInformationnocourse.TotalCource"));initialCounter++)
 			{
 				System.out.println(initialCounter+" initial counter");
 	            TestListenerAdapter tla = new TestListenerAdapter();
@@ -76,7 +76,7 @@ public class AllCourse_EOLCanadaReceiveInfo_nocourse_Tests {
 			}	
 		} 
 		else{
-			if (Utilities.getYamlValue("DomesticURLReceiveInformationnocourse.RunType").equalsIgnoreCase("AllCources")){
+			if (Utilities.getYamlValue("CanadaURLReceiveInformationnocourse.RunType").equalsIgnoreCase("AllCources")){
 				for (initialCounter=1; initialCounter<=TotalCources;initialCounter++)
 //					for (initialCounter=1; initialCounter<=5;initialCounter++)
 				{

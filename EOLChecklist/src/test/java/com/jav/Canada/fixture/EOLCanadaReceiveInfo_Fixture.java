@@ -71,7 +71,7 @@ public class EOLCanadaReceiveInfo_Fixture  extends EOLCanadaReceiveInfo_nocourse
 	
 	public void selectPaymentModeAndEnterCardInformation()
 	{
-                System.out.println("boolean is " +CanReciveInfo.selectfullpaymentmodeOnPaymentInformationPage());
+//                System.out.println("boolean is " +CanReciveInfo.selectfullpaymentmodeOnPaymentInformationPage());
 		Assert.assertTrue(CanReciveInfo.selectfullpaymentmodeOnPaymentInformationPage());
 	}
 

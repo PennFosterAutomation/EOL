@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import com.jav.Canada.fixture.*;
 import com.jav.Canada.util.*;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -167,10 +168,11 @@ public class EOLCanadaReceiveInfo_nocourse_Test {
 	public void enterRemaningInformationOnPersonalInformatoinPage()
 	{		
 		Reporter.log(Utilities.logOutputFile(" ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########"));
-		String DOBmonth = test.getYamlVal("CanadaURLReceiveInformationnocourse.StudentInformation.DOBmonth");
-		 String DOBday = test.getYamlVal("CanadaURLReceiveInformationnocourse.StudentInformation.DOBday");
-		 String DOByear = test.getYamlVal("CanadaURLReceiveInformationnocourse.StudentInformation.DOByear");
-		test.enterInformationOnPersonalInformationPage(DOBmonth, DOBday, DOByear);	
+		DOBmonth = test.getYamlVal("CanadaURLReceiveInformationnocourse.StudentInformation.DOBmonth");
+		DOBday = test.getYamlVal("CanadaURLReceiveInformationnocourse.StudentInformation.DOBday");
+		DOByear = test.getYamlVal("CanadaURLReceiveInformationnocourse.StudentInformation.DOByear");
+//		test.enterInformationOnPersonalInformationPage(DOBmonth, DOBday, DOByear);
+		test.enterInformationOnPersonalInformationPage(preFix, Fname, Lname, Mail, EmailExt, Phone, Address, City, State, Zip, DOBmonth, DOBday, DOByear);
 		Reporter.log(Utilities.logOutputFile(" ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########"));
 
 	}
@@ -234,7 +236,39 @@ public class EOLCanadaReceiveInfo_nocourse_Test {
 
 		}
 		
-		@Test(dependsOnMethods = "verifyElementsDisplayOnReviewAndSubmitPage")
+		 @Test(dependsOnMethods = "verifyElementsDisplayOnReviewAndSubmitPage")
+			public void verifyEditButtonOnReviewAndSubmit()
+			{
+		            if (Utilities.getYamlValue("CanadaURLReceiveInformation.RunType").equalsIgnoreCase("AllCources")) {
+		                Reporter.log(Utilities.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page STARTS ###########"));
+		                Reporter.log(Utilities.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page ENDS ###########"));
+		            }else{
+				Reporter.log(Utilities.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page STARTS ###########"));
+		                test.clickPersonalInfoEditButtonOnReviewAndSubmit();
+		                test.enterInformationAfterEditOnPersonalInformationPage(preFix, Fname, Lname, Mail, EmailExt, Phone, Address, City, State, Zip, DOBmonth, DOBday, DOByear);
+		                verifyredirectToPaymentInformationPage();
+		                verifyElementsDisplayOnPaymentInformation();
+		                selectModeOfPaymentandProvideInformation();
+		                verifyElementsDisplayAfterSelectModeOfPayment();
+		                enterCreditCardInformation();
+		                test.clickProgramInfoEditButtonOnReviewAndSubmit();
+		                verifyredirectToPaymentInformationPage();
+		                verifyElementsDisplayOnPaymentInformation();
+		                selectModeOfPaymentandProvideInformation();
+		                verifyElementsDisplayAfterSelectModeOfPayment();
+		                enterCreditCardInformation();
+		                test.clickPaymentInfoEditButtonOnReviewAndSubmit();
+		                verifyredirectToPaymentInformationPage();
+		                verifyElementsDisplayOnPaymentInformation();
+		                selectModeOfPaymentandProvideInformation();
+		                verifyElementsDisplayAfterSelectModeOfPayment();
+		                enterCreditCardInformation();
+				Reporter.log(Utilities.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page ENDS ###########"));
+		            }
+			}
+			
+				
+			@Test(dependsOnMethods = "verifyEditButtonOnReviewAndSubmit")
 		public void verifyandClickOnTermAndComtitionsDisplayOnReviewandSubmitPage()
 		{		
 			Reporter.log(Utilities.logOutputFile(" ########## Start Verify Elements Display On Review and Submit Page STARTS ###########"));
@@ -252,6 +286,6 @@ public class EOLCanadaReceiveInfo_nocourse_Test {
     public void tearDown() 
      {
 		Reporter.log(Utilities.logOutputFile(" ########## Stop Browser Session ###########"));
-//		test.stopBrowserSession();
+		test.stopBrowserSession();
      }	
 }

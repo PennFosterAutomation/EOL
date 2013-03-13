@@ -256,7 +256,7 @@ public class EOLCanadaReceiveInfo_Test {
     public void tearDown() 
      {
 		Reporter.log(Utilities.logOutputFile(" ########## Stop Browser Session ###########"));
-		test.stopBrowserSession();
+//		test.stopBrowserSession();
      }	
 	
 }

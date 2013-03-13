@@ -13,8 +13,8 @@ import org.openqa.selenium.WebDriver;
 
 import com.jav.Canada.pageobjects.EOLCanadaReceiveInfo_UI;
 import com.jav.Canada.pageobjects.EOLCanadaReceiveInfo_nocourse_UI;
-//import com.jav.Domestic.pageobjects.EOLEnrollNow_UI;
-//import com.jav.Domestic.pageobjects.EOLEnrollNow_nocourse_UI;
+import com.jav.Canada.pageobjects.EOLCanadaEnrollNow_UI;
+import com.jav.Canada.pageobjects.EOLCanadaEnrollNow_nocourse_UI;
 import com.jav.Canada.util.Utilities;
 
 
@@ -27,8 +27,8 @@ public class BaseFixture {
 	
 	EOLCanadaReceiveInfo_nocourse_UI ICSCanada;
 	EOLCanadaReceiveInfo_UI CanReciveInfo;
-//	EOLEnrollNow_UI DomEnrollNow;
-//	EOLEnrollNow_nocourse_UI DomEnrollNowNoCourse;
+	EOLCanadaEnrollNow_UI CanEnrollNow;
+	EOLCanadaEnrollNow_nocourse_UI CanEnrollNowNoCourse;
 	
 	public void startBrowserSession()
 	{
@@ -63,6 +63,8 @@ public class BaseFixture {
 		
 		ICSCanada = new EOLCanadaReceiveInfo_nocourse_UI(driver);
 		CanReciveInfo = new EOLCanadaReceiveInfo_UI(driver);
+		CanEnrollNow = new EOLCanadaEnrollNow_UI(driver);
+		CanEnrollNowNoCourse = new EOLCanadaEnrollNow_nocourse_UI(driver);
 //		DomEnrollNow = new EOLEnrollNow_UI(driver);
 //		DomEnrollNowNoCourse = new EOLEnrollNow_nocourse_UI(driver);
 	}

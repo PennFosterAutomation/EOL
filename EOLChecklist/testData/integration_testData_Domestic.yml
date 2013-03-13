@@ -1,11 +1,57 @@
 browser: chrome
 appurl:  http://s-enroll.pennfoster.com/testlinks.htm
-appurl1: http://stage.www.pennfoster.edu/urm.aspx?source=Q174859&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Education-and-Child-Care/Early-Childhood-Education-Associate-Degree.aspx?semkey=Q174859
-appurl2: http://stage.www.pennfoster.edu/urm.aspx?source=Q084069&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/High-School/High-School-Diploma.aspx?semkey=Q084069
-appurl3: http://stage.www.pennfoster.edu/urm.aspx?source=Q084006&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Apparel-and-Textile/Dressmaking-and-Design-Career-Diploma.aspx?semkey=Q084006
 ajax_timeout: 30
 logFilePath: logs/Reports
 
+
+##########################################################################################
+#
+#******* Configurations for Domestic Site Core URL *******
+#
+##########################################################################################
+# Possible values for RunType
+# RunType: Multiple
+# RunType: Single
+# 
+# 
+# If selected RunType as 'Multiple'. TotalCourse Field would be mandatory.
+# Total course contain the total number of course for those script have to be run
+
+SiteCoreApp:
+  RunType: Multiple
+  TotalActiveURL: "2"
+
+  URL1: "http://stage.www.pennfoster.edu/urm.aspx?source=Q174859&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Education-and-Child-Care/Early-Childhood-Education-Associate-Degree.aspx?semkey=Q174859"
+  URL2: "http://stage.www.pennfoster.edu/urm.aspx?source=Q084069&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/High-School/High-School-Diploma.aspx?semkey=Q084069"
+  URL3: "http://stage.www.pennfoster.edu/urm.aspx?source=Q084006&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Apparel-and-Textile/Dressmaking-and-Design-Career-Diploma.aspx?semkey=Q084006"
+  
+  StudentInformation:
+    FirstName: TestA
+    LastName: tests
+    Email: mail
+    EmailExt: pennfoster.com
+    PrimaryPhone: (248)246-1109
+    Address: 925 Oak St
+    City: Scranton
+    State: Pennsylvania
+    ZIP: "18515"  
+    DOBmonth: "04"
+    DOBday: "10"
+    DOByear: "1987"
+    CreditCardNumber: "4111111111111111"
+    CVV: "000"  
+  
+  PaymentMode: Checking or Savings Account
+
+# Account type below mentioned are the two possible values
+# Savings
+# Checking
+
+  AccountType: Savings
+  RoutingNumber: "031300135"
+  AccountNumber: "123456789"
+  SignDocElectronically: "yes"
+    
 ##########################################################################################
 #
 #******* Configurations for Domestic URL�s Receive Information (no course) *******
@@ -20,8 +66,8 @@ logFilePath: logs/Reports
 # Total course contain the total number of course for those script have to be run
 
 DomesticURLReceiveInformationnocourse:
-  RunType: Selected
-  TotalCource: "2"
+  RunType: OneIteration
+  TotalCource: "6"
   
   SelectCourse:
     Cource1: RETAIL MANAGEMENT A.S. DEGREE SEMESTER ONE
@@ -62,7 +108,7 @@ DomesticURLReceiveInformationnocourse:
 # Checking or Savings Account
 # Credit or Debit Card 
 
-  PaymentMode: Credit or Debit Card 
+  PaymentMode: Checking or Savings Account
 
 # Account type below mentioned are the two possible values
 # Savings
@@ -127,7 +173,7 @@ DomesticURLEnrollNownocourse:
 # Checking or Savings Account
 # Credit or Debit Card 
 
-  PaymentMode: Credit or Debit Card 
+  PaymentMode: Checking or Savings Account
 
 # Account type below mentioned are the two possible values
 # Savings
@@ -166,7 +212,7 @@ DomesticURLReceiveInformation:
 # Checking or Savings Account
 # Credit or Debit Card
 
-  PaymentMode: Checking or Savings Account 
+  PaymentMode: Checking or Savings Account
 
 # Account type below mentioned are the two possible values
 # Savings
@@ -205,7 +251,7 @@ DomesticURLEnrollNow:
 # Checking or Savings Account
 # Credit or Debit Card 
 
-  PaymentMode: Credit or Debit Card
+  PaymentMode: Checking or Savings Account
 
 # Account type below mentioned are the two possible values
 # Savings
