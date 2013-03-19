@@ -101,7 +101,7 @@ public class EOLDomesticEnrollNow_nocourse_Test {
 	{		
 		if (Utilities.getYamlValue("DomesticURLEnrollNownocourse.RunType").equalsIgnoreCase("Selected")){
 			Reporter.log(Utilities.logOutputFile(" ########## Start Select Course From Available Courses STARTS ###########"));
-			System.out.println("get from yamal and converted ######### " + Utilities.getYamlValue("DomesticURLEnrollNownocourse.SelectCourse.Cource"+AllCourse_EOLDomesticEnrollNow_nocourse_Tests.initialCounter).replaceAll("_", ":"));
+			//System.out.println("get from yamal and converted ######### " + Utilities.getYamlValue("DomesticURLEnrollNownocourse.SelectCourse.Cource"+AllCourse_EOLDomesticEnrollNow_nocourse_Tests.initialCounter).replaceAll("_", ":"));
 			test.selectCourse(Utilities.getYamlValue("DomesticURLEnrollNownocourse.SelectCourse.Cource"+AllCourse_EOLDomesticEnrollNow_nocourse_Tests.initialCounter).replaceAll("_", ":"));				
 			Reporter.log(Utilities.logOutputFile(" ########## Start Select Course From Available Courses ENDS ###########"));			
 		}else{

@@ -128,11 +128,11 @@ CanadaURLReceiveInformation:
   BankNumber: "123"
   TransitNumber: "12345"
   AccountNumber: "123456789"
-  SignDocElectronically: "no"
+  SignDocElectronically: "yes"
   
 ##########################################################################################
 #
-#******* Configurations for Canada URL�s Receive Information (no course) *******
+#******* Configurations for Canada URL�s Enroll Now (no course) *******
 #
 ##########################################################################################
 # Possible values for RunType

@@ -94,23 +94,14 @@ public class EOLDomesticReceiveInfo_nocourse_Test {
 	}
 
 	@Test(dependsOnMethods = "getNumberOfCourseAvailable")
-	public void selectCourseFromAvailableCourses() {
-		if (Utilities.getYamlValue(
-				"DomesticURLReceiveInformationnocourse.RunType")
-				.equalsIgnoreCase("Selected")) {
-			Reporter.log(Utilities
-					.logOutputFile(" ########## Start Select Course From Available Courses STARTS ###########"));
-			// System.out.println("get from yamal and converted ######### " +
+	public void selectCourseFromAvailableCourses() 
+	{
+		if (Utilities.getYamlValue("DomesticURLReceiveInformationnocourse.RunType").equalsIgnoreCase("Selected")) {
+			Reporter.log(Utilities.logOutputFile(" ########## Start Select Course From Available Courses STARTS ###########"));
+			// //System.out.println("get from yamal and converted ######### " +
 			// Utilities.getYamlValue("DomesticURLReceiveInformationnocourse.SelectCourse.Cource"+AllCourse_EOLDomesticReceiveInfo_nocourse_Tests.initialCounter).replaceAll("_",
 			// ":"));
-			// test.selectCourse(Utilities.getYamlValue("DomesticURLReceiveInformationnocourse.SelectCourse.Cource"+AllCourse_EOLDomesticReceiveInfo_nocourse_Tests.initialCounter).replaceAll("_",
-			// ":"));
-
-			test.selectCourse(Utilities
-					.getYamlValue(
-							"DomesticURLReceiveInformationnocourse.SelectCourse.Cource"
-									+ AllCourse_EOLDomesticReceiveInfo_nocourse_Tests.initialCounter)
-					.replaceAll("_", ":"));
+			test.selectCourse(Utilities.getYamlValue("DomesticURLReceiveInformationnocourse.SelectCourse.Cource"+AllCourse_EOLDomesticReceiveInfo_nocourse_Tests.initialCounter).replaceAll("_",":"));
 			Reporter.log(Utilities
 					.logOutputFile(" ########## Start Select Course From Available Courses ENDS ###########"));
 		} else {

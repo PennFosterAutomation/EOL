@@ -55,7 +55,7 @@ public class AllCourse_EOLDomesticEnrollNow_nocourse_Tests {
 	public void getNumberOfCourseAvailable()
 	{		
 		TotalCources = test.getCourseCount();	
-		System.out.println(TotalCources);
+		//System.out.println(TotalCources);
 		test.stopBrowserSession();
 	}
 	
@@ -65,14 +65,14 @@ public class AllCourse_EOLDomesticEnrollNow_nocourse_Tests {
 		if (Utilities.getYamlValue("DomesticURLEnrollNownocourse.RunType").equalsIgnoreCase("Selected")){
 			for (initialCounter=1; initialCounter<=Integer.parseInt(Utilities.getYamlValue("DomesticURLEnrollNownocourse.TotalCource"));initialCounter++)
 			{
-				System.out.println(initialCounter+" initial counter");
+				//System.out.println(initialCounter+" initial counter");
 	            TestListenerAdapter tla = new TestListenerAdapter();
 	            TestNG testng = new TestNG();
 	            testng.setTestClasses(new Class[]{EOLDomesticEnrollNow_nocourse_Test.class});
 	            testng.addListener(tla);
 	            testng.run();
 	            Utilities.lastRunReportSave();
-	            System.out.println("### "+initialCounter+" Selected All test class");
+	            //System.out.println("### "+initialCounter+" Selected All test class");
 			}	
 		} 
 		else{
@@ -81,14 +81,14 @@ public class AllCourse_EOLDomesticEnrollNow_nocourse_Tests {
 
 //					for (initialCounter=1; initialCounter<=5;initialCounter++)
 				{
-					System.out.println(initialCounter+" initial counter");
+					//System.out.println(initialCounter+" initial counter");
 		            TestListenerAdapter tla = new TestListenerAdapter();
 		            TestNG testng = new TestNG();
 		            testng.setTestClasses(new Class[]{EOLDomesticEnrollNow_nocourse_Test.class});
 		            testng.addListener(tla);
 		            testng.run();
 		    		
-		            System.out.println("###"+initialCounter+"All Cources All test class");
+		            //System.out.println("###"+initialCounter+"All Cources All test class");
 		    		Reporter.log(Utilities.logOutputFile(" ########## Start browser session ENDS ###########"));
 		    		
 

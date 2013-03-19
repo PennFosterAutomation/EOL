@@ -18,9 +18,10 @@ logFilePath: logs/Reports
 # Total course contain the total number of course for those script have to be run
 
 SiteCoreApp:
-  RunType: Multiple
+  RunType: Single
   TotalActiveURL: "2"
 
+  URL: "http://stage.www.pennfoster.edu"
   URL1: "http://stage.www.pennfoster.edu/urm.aspx?source=Q174859&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Education-and-Child-Care/Early-Childhood-Education-Associate-Degree.aspx?semkey=Q174859"
   URL2: "http://stage.www.pennfoster.edu/urm.aspx?source=Q084069&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/High-School/High-School-Diploma.aspx?semkey=Q084069"
   URL3: "http://stage.www.pennfoster.edu/urm.aspx?source=Q084006&url=http://stage.www.pennfoster.edu/Programs-and-Degrees/Apparel-and-Textile/Dressmaking-and-Design-Career-Diploma.aspx?semkey=Q084006"
@@ -67,10 +68,10 @@ SiteCoreApp:
 
 DomesticURLReceiveInformationnocourse:
   RunType: OneIteration
-  TotalCource: "6"
+  TotalCource: "16"
   
   SelectCourse:
-    Cource1: RETAIL MANAGEMENT A.S. DEGREE SEMESTER ONE
+    Cource1: VETERINARY TECHNICIAN A.S. DEGREE SEMESTER ONE
     Cource2: CRIMINAL JUSTICE B.S. DEGREE SEMESTER ONE
     Cource3: CERTIFIED PERSONAL TRAINER DIPLOMA
     Cource4: EARLY CHILDHOOD EDUCATION A.S. DEGREE SEMESTER ONE
@@ -85,6 +86,7 @@ DomesticURLReceiveInformationnocourse:
     Cource13: DOG OBEDIENCE TRAINER/INSTRUCTOR
     Cource14: BUSINESS MANAGEMENT B.S. DEGREE SEMESTER ONE
     Cource15: CHILD DAY CARE_ STAFFING (CONTINUING EDUCATION COURSE)
+    Cource16: RETAIL MANAGEMENT A.S. DEGREE SEMESTER ONE
   
   
   
@@ -108,7 +110,7 @@ DomesticURLReceiveInformationnocourse:
 # Checking or Savings Account
 # Credit or Debit Card 
 
-  PaymentMode: Checking or Savings Account
+  PaymentMode: Credit or Debit Card
 
 # Account type below mentioned are the two possible values
 # Savings
@@ -133,11 +135,11 @@ DomesticURLReceiveInformationnocourse:
 # Total course contain the total number of course for those script have to be run
 
 DomesticURLEnrollNownocourse:
-  RunType: OneIteration
-  TotalCource: "2"
+  RunType: Selected
+  TotalCource: "16"
   
   SelectCourse:
-    Cource1: MEDICAL CODING & BILLING-CERTIFICATE
+    Cource1: ARTIST
     Cource2: CERTIFIED PERSONAL TRAINER DIPLOMA
     Cource3: UNDERGRADUATE CERTIFICATE IN ACCOUNTING
     Cource4: PENN FOSTER HIGH SCHOOL
@@ -148,10 +150,11 @@ DomesticURLEnrollNownocourse:
     Cource9: SPORTS NUTRITION CERTIFICATE
     Cource10: RETAIL MANAGEMENT A.S. DEGREE SEMESTER ONE
     Cource11: PENN FOSTER HIGH SCHOOL W/ HEALTH CARE CONC.
-    Cource12: ARTIST
+    Cource12: MEDICAL CODING & BILLING-CERTIFICATE
     Cource13: DOG OBEDIENCE TRAINER/INSTRUCTOR
     Cource14: CRIMINAL JUSTICE B.S. DEGREE SEMESTER ONE
     Cource15: CHILD DAY CARE_ STAFFING (CONTINUING EDUCATION COURSE)
+    Cource16: VETERINARY TECHNICIAN A.S. DEGREE SEMESTER ONE
 
   StudentInformation:
     FirstName: Final
@@ -232,7 +235,7 @@ DomesticURLReceiveInformation:
 
 DomesticURLEnrollNow:
   StudentInformation:
-    FirstName: TestQAE
+    FirstName: Final
     LastName: tests
     Email: mail
     EmailExt: pennfoster.com
@@ -251,7 +254,7 @@ DomesticURLEnrollNow:
 # Checking or Savings Account
 # Credit or Debit Card 
 
-  PaymentMode: Checking or Savings Account
+  PaymentMode: Credit or Debit Card
 
 # Account type below mentioned are the two possible values
 # Savings

@@ -1,5 +1,4 @@
 package com.jav.Canada.pageobjects;
-import com.jav.Canada.pageobjects.*;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

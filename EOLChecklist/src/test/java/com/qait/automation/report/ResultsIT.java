@@ -1,7 +1,6 @@
 package com.qait.automation.report;
 
 import com.jav.Domestic.fixture.EOLDomesticReceiveInfo_Fixture;
-import com.jav.Domestic.fixture.*;
 import com.jav.Domestic.util.Utilities;
 import java.io.BufferedReader;
 import java.io.File;

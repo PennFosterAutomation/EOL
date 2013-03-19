@@ -2430,10 +2430,10 @@ String course;
 					ClickToContinueInOnElectronicSigAgreement.click();
 					try {
 						clickHereLinkOnCongratulationsPage.isDisplayed();
-						Reporter.log(Utilities.logOutputFile(" Final "
-								+ getStudentIDFromCongratulationsPage.getText()
-								+ " for Enroll Link - Pass"));
-
+//						Reporter.log(Utilities.logOutputFile(" Final "
+//								+ getStudentIDFromCongratulationsPage.getText()
+//								+ " for Enroll Link1 - Pass"));
+						m = 1;
 						// //System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
 					} catch (Exception e) {
 						//System.out.println("Error in validating fields3 "+e);
@@ -2447,9 +2447,9 @@ String course;
 				} else {
 					noLinkonDisplayOnElectronicSignature.click();
 					clickHereLinkOnCongratulationsPage.isDisplayed();
-					Reporter.log(Utilities.logOutputFile(" Final Student ID is "
-							+ getStudentIDFromCongratulationsPage.getText()
-							+ " for enroll link - Pass"));		
+//					Reporter.log(Utilities.logOutputFile(" Final Student ID is "
+//							+ getStudentIDFromCongratulationsPage.getText()
+//							+ " for enroll link2 - Pass"));		
 //				noLinkonDisplayOnElectronicSignature.click();
 //				
 ////				textElectronicSignature.getText().contains("Congratulations");

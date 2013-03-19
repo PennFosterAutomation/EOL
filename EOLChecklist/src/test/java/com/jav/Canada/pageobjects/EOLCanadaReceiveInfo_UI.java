@@ -1,6 +1,5 @@
 package com.jav.Canada.pageobjects;
 
-import com.jav.Canada.pageobjects.*;
 import java.util.List;
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -2069,17 +2068,12 @@ public class EOLCanadaReceiveInfo_UI extends AbstractClass {
 				Assert.assertTrue(m.getText().contains("$0.00"));
 			} else {
 				m = check.get(18);
-				// System.out.println("#### " + m.getText());
-				String accountnumber = Utilities
-						.getYamlValue("CanadaURLReceiveInformation.AccountNumber");
 				Assert.assertTrue(m.getText().contains("$0.00"));
 			}
 
 		} catch (Exception e) {
-			for (WebElement FetchValue : check) {
-				// System.out.println(FetchValue.getText());
-			}
-
+			Reporter.log(Utilities.logOutputFile(" Exception in payment mode verification "
+					+ e));
 		}
 
 		return result;
@@ -2366,7 +2360,7 @@ public class EOLCanadaReceiveInfo_UI extends AbstractClass {
 
 					// System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
 				} catch (Exception e) {
-					System.out.println(e);
+					//System.out.println(e);
 					Reporter.log(Utilities.logOutputFile(" Final " + StudentID
 							+ " - Pass"));
 					Reporter.log(Utilities

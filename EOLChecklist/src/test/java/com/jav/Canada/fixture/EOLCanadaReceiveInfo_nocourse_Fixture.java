@@ -1,5 +1,4 @@
 package com.jav.Canada.fixture;
-import com.jav.Canada.fixture.*;
 
 import org.junit.Assert;
 

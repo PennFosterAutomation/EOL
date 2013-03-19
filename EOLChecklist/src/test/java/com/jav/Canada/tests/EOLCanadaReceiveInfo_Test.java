@@ -240,23 +240,20 @@ public class EOLCanadaReceiveInfo_Test {
 		Reporter.log(Utilities.logOutputFile(" ########## Start Verify Edit botton On Review and Submit Page ENDS ###########"));
             }
 	}
-	
-		
+			
 	@Test(dependsOnMethods = "verifyEditButtonOnReviewAndSubmit")
 	public void verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage()
 	{		
 		Reporter.log(Utilities.logOutputFile(" ########## Start Verify Elements Display On Review and Submit Page STARTS ###########"));
 		test.clickonTermAndConditionsonReviewandSubmitPage();	
 		Reporter.log(Utilities.logOutputFile(" ########## Start Verify Elements Display On Review and Submit Page ENDS ###########"));
-
 	}
 
-	
 	@AfterClass
     public void tearDown() 
      {
 		Reporter.log(Utilities.logOutputFile(" ########## Stop Browser Session ###########"));
-//		test.stopBrowserSession();
+		test.stopBrowserSession();
      }	
 	
 }

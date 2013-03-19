@@ -1,0 +1,471 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 19 12:12:01 IST 2013</td>
+</tr>
+<tr><td>Total time:</td><td>209 seconds (209181 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.enterCreditCardInformation()'><b>enterCreditCardInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-10755581" onClick='toggleBox("Output-10755581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10755581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10755581">
+Tue, 19 Mar 2013 12:13:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:13:32 IST Enter information in creadit card form
+<br><br/>
+Tue, 19 Mar 2013 12:13:32 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br><br/>
+Tue, 19 Mar 2013 12:13:32 IST Enter CVV number in creadit card form is -- ] 000
+<br><br/>
+Tue, 19 Mar 2013 12:13:32 IST Select Expiry date of creadit card - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:32 IST Click on Proceed to Final Step button - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:33 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.enterRemaningInformationOnPersonalInformatoinPage()'><b>enterRemaningInformationOnPersonalInformatoinPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-655613" onClick='toggleBox("Output-655613", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-655613" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-655613">
+Tue, 19 Mar 2013 12:12:20 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:20 IST  Enter Information on Step1 page - Pass
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter First Name --] Final
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter Last Name  --] cen
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter Email  --] mail191201754@pennfoster.com
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter Phone Number  --] (248)246-1109
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter Address  --] 925 Oak St
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter City  --] Scranton
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter Zip  --] 18515
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST Enter DOB on personal Inforation page MM:DD:YYY format --] 04101987
+<br><br/>
+Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.homePageactions()'><b>homePageactions</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-1772552" onClick='toggleBox("Output-1772552", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1772552" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1772552">
+Tue, 19 Mar 2013 12:12:13 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:20 IST Click on Receive Information (No course) - Pass
+<br><br/>
+Tue, 19 Mar 2013 12:12:20 IST  Penn Foster School Image Verify - Pass
+<br><br/>
+Tue, 19 Mar 2013 12:12:20 IST  ########## Start Launch Home Page ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.launchHomePage()'><b>launchHomePage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-5234449" onClick='toggleBox("Output-5234449", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5234449" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5234449">
+Tue, 19 Mar 2013 12:12:07 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:13 IST  ########## Start Launch Home Page ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.selectModeOfPaymentandProvideInformation()'><b>selectModeOfPaymentandProvideInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-26933798" onClick='toggleBox("Output-26933798", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26933798" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26933798">
+Tue, 19 Mar 2013 12:12:49 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:56 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:57 IST Select creadit card option display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:57 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.setup()'><b>setup</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-24392121" onClick='toggleBox("Output-24392121", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24392121" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24392121">
+Tue, 19 Mar 2013 12:12:02 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:07 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyEditButtonOnReviewAndSubmit()'><b>verifyEditButtonOnReviewAndSubmit</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-32485824" onClick='toggleBox("Output-32485824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32485824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32485824">
+Tue, 19 Mar 2013 12:13:42 IST  ########## Start Verify Edit botton On Review and Submit Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:13:48 IST  Enter Information on Step1 page - Pass
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter First Name --] Final
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter Last Name  --] cen
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter Email  --] mail191201754@pennfoster.com
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter Phone Number  --] (248)246-1109
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter Address  --] 925 Oak St
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter City  --] Scranton
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter Zip  --] 18515
+<br><br/>
+Tue, 19 Mar 2013 12:14:00 IST Enter DOB on personal Inforation page MM:DD:YYY format --] 04101987
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST Verify Promo COde Link display on Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST Verify Step Text - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST Verify Footer Image Secure Transaction - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST Select creadit card option display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:08 IST Verify form display under creadit card on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:08 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:08 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:13 IST Enter information in creadit card form
+<br><br/>
+Tue, 19 Mar 2013 12:14:14 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br><br/>
+Tue, 19 Mar 2013 12:14:14 IST Enter CVV number in creadit card form is -- ] 000
+<br><br/>
+Tue, 19 Mar 2013 12:14:14 IST Select Expiry date of creadit card - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:14 IST Click on Proceed to Final Step button - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:14 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST Verify Promo COde Link display on Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST Verify Step Text - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST Verify Footer Image Secure Transaction - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:26 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:26 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:26 IST Select creadit card option display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:26 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:26 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:27 IST Verify form display under creadit card on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:32 IST Enter information in creadit card form
+<br><br/>
+Tue, 19 Mar 2013 12:14:32 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br><br/>
+Tue, 19 Mar 2013 12:14:32 IST Enter CVV number in creadit card form is -- ] 000
+<br><br/>
+Tue, 19 Mar 2013 12:14:32 IST Select Expiry date of creadit card - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:33 IST Click on Proceed to Final Step button - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:33 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST Verify Promo COde Link display on Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST Verify Step Text - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST Verify Footer Image Secure Transaction - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST Select creadit card option display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:42 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:43 IST Verify form display under creadit card on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:43 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:43 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST Enter information in creadit card form
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST Enter CVV number in creadit card form is -- ] 000
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST Select Expiry date of creadit card - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST Click on Proceed to Final Step button - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Edit botton On Review and Submit Page ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>66</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayAfterSelectModeOfPayment()'><b>verifyElementsDisplayAfterSelectModeOfPayment</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-6825008" onClick='toggleBox("Output-6825008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6825008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6825008">
+Tue, 19 Mar 2013 12:12:57 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:13:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayOnPaymentInformation()'><b>verifyElementsDisplayOnPaymentInformation</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-21480194" onClick='toggleBox("Output-21480194", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21480194" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21480194">
+Tue, 19 Mar 2013 12:12:48 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:49 IST Verify Step Text - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:49 IST Verify Footer Image Secure Transaction - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:49 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:49 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayOnReviewAndSubmitPage()'><b>verifyElementsDisplayOnReviewAndSubmitPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-14584485" onClick='toggleBox("Output-14584485", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14584485" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14584485">
+Tue, 19 Mar 2013 12:13:33 IST  ########## Start Enter CreditCard Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:13:40 IST Verify redirect user to review & submit page - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:40 IST Information Display under Personal Information Heading - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:41 IST Information Display under Program Information Heading - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:41 IST Information Display under Payment Information Heading - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:42 IST  ########## Start Enter CreditCard Information ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage()'><b>verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-23118013" onClick='toggleBox("Output-23118013", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23118013" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23118013">
+Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:15:28 IST  Final Student ID is 40476901 - Pass
+<br><br/>
+Tue, 19 Mar 2013 12:15:28 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+<tr>
+<td title='com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyredirectToPaymentInformationPage()'><b>verifyredirectToPaymentInformationPage</b><br>Test class: com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<br/>
+<a href="#Output-30490373" onClick='toggleBox("Output-30490373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30490373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30490373">
+Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:48 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:48 IST Verify Promo COde Link display on Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0</td></tr>
+</table><p>
+</body>
+</html>

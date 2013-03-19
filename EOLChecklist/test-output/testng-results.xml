@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:02 IST  ########## Start browser session STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:07 IST  ########## Start browser session ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:07 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:13 IST  ########## Start Launch Home Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:13 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:20 IST Click on Receive Information (No course) - Pass
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:20 IST  Penn Foster School Image Verify - Pass
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:20 IST  ########## Start Launch Home Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:20 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:20 IST  Enter Information on Step1 page - Pass
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter First Name --] Final
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter Last Name  --] cen
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter Email  --] mail191201754@pennfoster.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter Phone Number  --] (248)246-1109
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter Address  --] 925 Oak St
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter City  --] Scranton
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter Zip  --] 18515
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:30 IST Enter DOB on personal Inforation page MM:DD:YYY format --] 04101987
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:48 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:48 IST Verify Promo COde Link display on Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:48 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:49 IST Verify Step Text - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:49 IST Verify Footer Image Secure Transaction - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:49 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:49 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:49 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:56 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:57 IST Select creadit card option display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:57 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:12:57 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:32 IST Enter information in creadit card form
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:32 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:32 IST Enter CVV number in creadit card form is -- ] 000
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:32 IST Select Expiry date of creadit card - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:32 IST Click on Proceed to Final Step button - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:33 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:33 IST  ########## Start Enter CreditCard Information STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:40 IST Verify redirect user to review & submit page - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:40 IST Information Display under Personal Information Heading - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:41 IST Information Display under Program Information Heading - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:41 IST Information Display under Payment Information Heading - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:42 IST  ########## Start Enter CreditCard Information ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:42 IST  ########## Start Verify Edit botton On Review and Submit Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:48 IST  Enter Information on Step1 page - Pass
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter First Name --] Final
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter Last Name  --] cen
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter Email  --] mail191201754@pennfoster.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter Phone Number  --] (248)246-1109
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter Address  --] 925 Oak St
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter City  --] Scranton
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter Zip  --] 18515
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:00 IST Enter DOB on personal Inforation page MM:DD:YYY format --] 04101987
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:06 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:06 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:06 IST Verify Promo COde Link display on Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:06 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:06 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:06 IST Verify Step Text - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:06 IST Verify Footer Image Secure Transaction - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:07 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:07 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:07 IST Select creadit card option display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:07 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:08 IST Verify form display under creadit card on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:08 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:08 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:13 IST Enter information in creadit card form
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:14 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:14 IST Enter CVV number in creadit card form is -- ] 000
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:14 IST Select Expiry date of creadit card - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:14 IST Click on Proceed to Final Step button - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:14 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:25 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:25 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:25 IST Verify Promo COde Link display on Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:25 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:25 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:25 IST Verify Step Text - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:25 IST Verify Footer Image Secure Transaction - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:25 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:25 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:26 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:26 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:26 IST Select creadit card option display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:26 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:26 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:27 IST Verify form display under creadit card on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:32 IST Enter information in creadit card form
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:32 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:32 IST Enter CVV number in creadit card form is -- ] 000
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:32 IST Select Expiry date of creadit card - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:33 IST Click on Proceed to Final Step button - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:33 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:40 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:40 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:40 IST Verify Promo COde Link display on Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:40 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:40 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:40 IST Verify Step Text - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:40 IST Verify Footer Image Secure Transaction - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:41 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:41 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:41 IST Select creadit card option display on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:42 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:43 IST Verify form display under creadit card on Payment Information Page - PASS
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:43 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:43 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:48 IST Enter information in creadit card form
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:48 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:48 IST Enter CVV number in creadit card form is -- ] 000
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:48 IST Select Expiry date of creadit card - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:48 IST Click on Proceed to Final Step button - PASS 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Edit botton On Review and Submit Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:15:28 IST  Final Student ID is 40476901 - Pass
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:15:28 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tue, 19 Mar 2013 12:15:28 IST  ########## Stop Browser Session ###########
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="209181" started-at="2013-03-19T06:42:01Z" finished-at="2013-03-19T06:45:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="209181" started-at="2013-03-19T06:42:01Z" finished-at="2013-03-19T06:45:31Z">
+      <class name="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test">
+        <test-method status="PASS" signature="initialsettings()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="initialsettings" is-config="true" duration-ms="263" started-at="2013-03-19T12:12:01Z" finished-at="2013-03-19T12:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="setup" duration-ms="5256" started-at="2013-03-19T12:12:02Z" finished-at="2013-03-19T12:12:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:02 IST  ########## Start browser session STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:07 IST  ########## Start browser session ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchHomePage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="launchHomePage" duration-ms="5965" started-at="2013-03-19T12:12:07Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.setup" finished-at="2013-03-19T12:12:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:07 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:13 IST  ########## Start Launch Home Page ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+        <test-method status="PASS" signature="homePageactions()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="homePageactions" duration-ms="7030" started-at="2013-03-19T12:12:13Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.launchHomePage" finished-at="2013-03-19T12:12:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:13 IST  ########## Start Launch Home Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:20 IST Click on Receive Information (No course) - Pass
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:20 IST  Penn Foster School Image Verify - Pass
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:20 IST  ########## Start Launch Home Page ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePageactions -->
+        <test-method status="PASS" signature="enterRemaningInformationOnPersonalInformatoinPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="enterRemaningInformationOnPersonalInformatoinPage" duration-ms="28110" started-at="2013-03-19T12:12:20Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.homePageactions" finished-at="2013-03-19T12:12:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:20 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:20 IST  Enter Information on Step1 page - Pass
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter First Name --] Final
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter Last Name  --] cen
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter Email  --] mail191201754@pennfoster.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter Phone Number  --] (248)246-1109
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter Address  --] 925 Oak St
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter City  --] Scranton
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:30 IST  Enter Zip  --] 18515
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:30 IST Enter DOB on personal Inforation page MM:DD:YYY format --] 04101987
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterRemaningInformationOnPersonalInformatoinPage -->
+        <test-method status="PASS" signature="verifyredirectToPaymentInformationPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="verifyredirectToPaymentInformationPage" duration-ms="379" started-at="2013-03-19T12:12:48Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.enterRemaningInformationOnPersonalInformatoinPage" finished-at="2013-03-19T12:12:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:48 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:48 IST Verify Promo COde Link display on Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyredirectToPaymentInformationPage -->
+        <test-method status="PASS" signature="verifyElementsDisplayOnPaymentInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="verifyElementsDisplayOnPaymentInformation" duration-ms="964" started-at="2013-03-19T12:12:48Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyredirectToPaymentInformationPage" finished-at="2013-03-19T12:12:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:48 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:49 IST Verify Step Text - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:49 IST Verify Footer Image Secure Transaction - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:49 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:49 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnPaymentInformation -->
+        <test-method status="PASS" signature="selectModeOfPaymentandProvideInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="selectModeOfPaymentandProvideInformation" duration-ms="7250" started-at="2013-03-19T12:12:49Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayOnPaymentInformation" finished-at="2013-03-19T12:12:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:49 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:56 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:57 IST Select creadit card option display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:57 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectModeOfPaymentandProvideInformation -->
+        <test-method status="PASS" signature="verifyElementsDisplayAfterSelectModeOfPayment()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="verifyElementsDisplayAfterSelectModeOfPayment" duration-ms="30195" started-at="2013-03-19T12:12:57Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.selectModeOfPaymentandProvideInformation" finished-at="2013-03-19T12:13:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:12:57 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayAfterSelectModeOfPayment -->
+        <test-method status="PASS" signature="enterCreditCardInformation()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="enterCreditCardInformation" duration-ms="5732" started-at="2013-03-19T12:13:27Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayAfterSelectModeOfPayment" finished-at="2013-03-19T12:13:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:32 IST Enter information in creadit card form
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:32 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:32 IST Enter CVV number in creadit card form is -- ] 000
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:32 IST Select Expiry date of creadit card - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:32 IST Click on Proceed to Final Step button - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:33 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterCreditCardInformation -->
+        <test-method status="PASS" signature="verifyElementsDisplayOnReviewAndSubmitPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="verifyElementsDisplayOnReviewAndSubmitPage" duration-ms="9145" started-at="2013-03-19T12:13:33Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.enterCreditCardInformation" finished-at="2013-03-19T12:13:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:33 IST  ########## Start Enter CreditCard Information STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:40 IST Verify redirect user to review & submit page - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:40 IST Information Display under Personal Information Heading - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:41 IST Information Display under Program Information Heading - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:41 IST Information Display under Payment Information Heading - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:42 IST  ########## Start Enter CreditCard Information ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyElementsDisplayOnReviewAndSubmitPage -->
+        <test-method status="PASS" signature="verifyEditButtonOnReviewAndSubmit()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="verifyEditButtonOnReviewAndSubmit" duration-ms="66350" started-at="2013-03-19T12:13:42Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyElementsDisplayOnReviewAndSubmitPage" finished-at="2013-03-19T12:14:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:42 IST  ########## Start Verify Edit botton On Review and Submit Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:48 IST  Enter Information on Step1 page - Pass
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter First Name --] Final
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter Last Name  --] cen
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter Email  --] mail191201754@pennfoster.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter Phone Number  --] (248)246-1109
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter Address  --] 925 Oak St
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter City  --] Scranton
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:13:57 IST  Enter Zip  --] 18515
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:00 IST Enter DOB on personal Inforation page MM:DD:YYY format --] 04101987
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:06 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:06 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:06 IST Verify Promo COde Link display on Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:06 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:06 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:06 IST Verify Step Text - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:06 IST Verify Footer Image Secure Transaction - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:07 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:07 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:07 IST Select creadit card option display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:07 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:08 IST Verify form display under creadit card on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:08 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:08 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:13 IST Enter information in creadit card form
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:14 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:14 IST Enter CVV number in creadit card form is -- ] 000
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:14 IST Select Expiry date of creadit card - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:14 IST Click on Proceed to Final Step button - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:14 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:25 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:25 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:25 IST Verify Promo COde Link display on Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:25 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:25 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:25 IST Verify Step Text - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:25 IST Verify Footer Image Secure Transaction - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:25 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:25 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:26 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:26 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:26 IST Select creadit card option display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:26 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:26 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:27 IST Verify form display under creadit card on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:32 IST Enter information in creadit card form
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:32 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:32 IST Enter CVV number in creadit card form is -- ] 000
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:32 IST Select Expiry date of creadit card - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:33 IST Click on Proceed to Final Step button - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:33 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:40 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:40 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:40 IST Verify Promo COde Link display on Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:40 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:40 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:40 IST Verify Step Text - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:40 IST Verify Footer Image Secure Transaction - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:41 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:41 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:41 IST Select creadit card option display on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:42 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:43 IST Verify form display under creadit card on Payment Information Page - PASS
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:43 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:43 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:48 IST Enter information in creadit card form
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:48 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:48 IST Enter CVV number in creadit card form is -- ] 000
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:48 IST Select Expiry date of creadit card - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:48 IST Click on Proceed to Final Step button - PASS 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Edit botton On Review and Submit Page ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEditButtonOnReviewAndSubmit -->
+        <test-method status="PASS" signature="verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage" duration-ms="40082" started-at="2013-03-19T12:14:48Z" depends-on-methods="com.jav.Domestic.tests.EOLDomesticEnrollNow_Test.verifyEditButtonOnReviewAndSubmit" finished-at="2013-03-19T12:15:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:15:28 IST  Final Student ID is 40476901 - Pass
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:15:28 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jav.Domestic.tests.EOLDomesticEnrollNow_Test@17471e0]" name="tearDown" is-config="true" duration-ms="2397" started-at="2013-03-19T12:15:28Z" finished-at="2013-03-19T12:15:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tue, 19 Mar 2013 12:15:28 IST  ########## Stop Browser Session ###########
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jav.Domestic.tests.EOLDomesticEnrollNow_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

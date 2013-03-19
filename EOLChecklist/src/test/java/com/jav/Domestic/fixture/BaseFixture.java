@@ -2,18 +2,11 @@ package com.jav.Domestic.fixture;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import org.openqa.selenium.WebDriver;
-
-
-import bsh.Capabilities;
-
 import com.jav.Domestic.pageobjects.EOLDomesticReceiveInfo_UI;
 import com.jav.Domestic.pageobjects.EOLDomesticReceiveInfo_nocourse_UI;
 import com.jav.Domestic.pageobjects.EOLEnrollNow_UI;
@@ -53,18 +46,11 @@ public class BaseFixture {
             Utilities.hardWait(5);
 
 		} else if (getYamlVal("browser").equalsIgnoreCase("chrome")){
-                    if((System.getProperty("os.name")).contains("Linux")){
-                    DesiredCapabilities caps = DesiredCapabilities.chrome();             
-                    caps.setJavascriptEnabled(true);
-                    System.setProperty("webdriver.chrome.driver","chromedriver");
-                    driver = new ChromeDriver(caps);        
-                } else if((System.getProperty("os.name")).contains("Windows")){
-                    capabilities.setBrowserName("chrome");
-                    System.setProperty("webdriver.chrome.driver",
-                    "chromedriver.exe");
-                    driver = new ChromeDriver();
+			capabilities.setBrowserName("chrome");
+			System.setProperty("webdriver.chrome.driver",
+	                "chromedriver.exe");
+			driver = new ChromeDriver();
 		}
-                }
 		int ajax_timeout = Integer.parseInt(getYamlVal("ajax_timeout"));
         driver.manage().timeouts().implicitlyWait(ajax_timeout, TimeUnit.SECONDS);
         initPageObjects();

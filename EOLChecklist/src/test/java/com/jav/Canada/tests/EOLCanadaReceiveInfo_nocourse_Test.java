@@ -95,7 +95,10 @@ public class EOLCanadaReceiveInfo_nocourse_Test {
 	{		
 		if (Utilities.getYamlValue("CanadaURLReceiveInformationnocourse.RunType").equalsIgnoreCase("Selected")){
 			Reporter.log(Utilities.logOutputFile(" ########## Start Select Course From Available Courses STARTS ###########"));
-			test.selectCourse(Utilities.getYamlValue("CanadaURLReceiveInformationnocourse.SelectCourse.Cource"+AllCourse_EOLCanadaReceiveInfo_nocourse_Tests.initialCounter));				
+			// System.out.println("get from yamal and converted ######### " +
+			// Utilities.getYamlValue("DomesticURLReceiveInformationnocourse.SelectCourse.Cource"+AllCourse_EOLDomesticReceiveInfo_nocourse_Tests.initialCounter).replaceAll("_",
+			// ":"));
+			test.selectCourse(Utilities.getYamlValue("CanadaURLReceiveInformationnocourse.SelectCourse.Cource"+AllCourse_EOLCanadaReceiveInfo_nocourse_Tests.initialCounter).replaceAll("_",":"));				
 			Reporter.log(Utilities.logOutputFile(" ########## Start Select Course From Available Courses ENDS ###########"));			
 		}else{
 			if (Utilities.getYamlValue("CanadaURLReceiveInformationnocourse.RunType").equalsIgnoreCase("AllCources")){

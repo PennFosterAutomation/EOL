@@ -13,7 +13,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class SiteCoreULR_Feature_Test {
+public class SiteCoreURL_Feature_Test {
 
 	WebDriver driverTest;
 
@@ -36,7 +36,7 @@ public class SiteCoreULR_Feature_Test {
 	String CVV;
 	String URL;
 
-	SiteCoreULR_Feature_Test() {
+	SiteCoreURL_Feature_Test() {
 		DateFormat dateFormat = new SimpleDateFormat("ddmmssSSS");
 		Date date = new Date();
 		preFix = dateFormat.format(date);
@@ -61,8 +61,8 @@ public class SiteCoreULR_Feature_Test {
 	@Test(dependsOnMethods = "setup")
 	public void launchSelectedSiteCoreURL() throws InterruptedException {
 		Reporter.log(Utilities.logOutputFile(" ########## Start Launch Home Page STARTS ###########"));
-		test.launchUrl(test.getYamlVal("SiteCoreApp.URL3"));
-		URL = test.getYamlVal("SiteCoreApp.URL3");
+		test.launchUrl(test.getYamlVal("SiteCoreApp.URL1"));
+		URL = test.getYamlVal("SiteCoreApp.URL1");
 		Utilities.hardWait(4);
 		Reporter.log(Utilities.logOutputFile(" ########## Start Launch Home Page ENDS ###########"));
 

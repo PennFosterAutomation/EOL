@@ -466,7 +466,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 			}catch(Exception e)
 			{
-				System.out.println("Unable to varify element on Personal Information Page --> "+e);
+				//System.out.println("Unable to varify element on Personal Information Page --> "+e);
 				Reporter.log(Utilities.logOutputFile("Verify textboxes and Labels display on Personal Information Page  - FAIL "));
 
 			}
@@ -501,7 +501,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 				
 			}catch(Exception e)
 			{
-				System.out.println("Error in validating all empty message on Step1 page " + e);
+				//System.out.println("Error in validating all empty message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 			
@@ -513,7 +513,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 				firstNameTextBoxOnStep1Page.getAttribute("value");
 				Assert.assertTrue(firstNameTextBoxOnStep1Page.getAttribute("value").equalsIgnoreCase(Fname));
 			}catch(Exception e){
-				System.out.println("Error in validating all first name message on Step1 page " + e);
+				//System.out.println("Error in validating all first name message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 			
@@ -524,7 +524,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 				emailTextBoxOnStep1Page.click();
 				Assert.assertTrue(lastNameTextBoxOnStep1Page.getAttribute("value").equalsIgnoreCase(Lname));
 			}catch(Exception e){
-				System.out.println("Error in validating all last name message on Step1 page " + e);
+				//System.out.println("Error in validating all last name message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 			
@@ -549,7 +549,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			dayTextboxDOBOnStep1PersonalInformationPage.sendKeys(DOBday);
 			yearTextboxDOBOnStep1PersonalInformationPage.sendKeys(DOByear);
 			}catch(Exception e){
-				System.out.println("Error in validating all email message on Step1 page " + e);
+				//System.out.println("Error in validating all email message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 			
@@ -561,7 +561,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			okButtonValidationPopUp.click();
 			emailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 			}catch(Exception e){
-				System.out.println("Error in validating all email required message on Step1 page " + e);
+				//System.out.println("Error in validating all email required message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 			
@@ -572,7 +572,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			okButtonValidationPopUp.click();
 			reTypeEmailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 			}catch(Exception e){
-				System.out.println("Error in validating all email required message on Step1 page " + e);
+				//System.out.println("Error in validating all email required message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 			
@@ -589,7 +589,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			emailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 			reTypeEmailTextBoxOnStep1Page.sendKeys(Mail+preFix+"@"+EmailExt);
 			}catch(Exception e){
-				System.out.println("Error in validating all email does not match message on Step1 page " + e);
+				//System.out.println("Error in validating all email does not match message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 
@@ -604,7 +604,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			okButtonValidationPopUp.click();
 			primaryPhoneTextBoxOnStep1Page.sendKeys(Phone);
 			}catch(Exception e){
-				System.out.println("Error in validating phone number message on Step1 page " + e);
+				//System.out.println("Error in validating phone number message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 			
@@ -615,7 +615,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			okButtonValidationPopUp.click();
 			address1TextBoxOnStep1Page.sendKeys(Address);
 			}catch(Exception e){
-				System.out.println("Error in validating address message on Step1 page " + e);
+				//System.out.println("Error in validating address message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 			
@@ -626,7 +626,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			okButtonValidationPopUp.click();
 			cityTextBoxOnStep1Page.sendKeys(City);
 			}catch(Exception e){
-				System.out.println("Error in validating city message on Step1 page " + e);
+				//System.out.println("Error in validating city message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 			
@@ -638,7 +638,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			okButtonValidationPopUp.click();
 			zipTextBoxOnStep1Page.sendKeys(Zip);
 			}catch(Exception e){
-				System.out.println("Error in validating zip message on Step1 page " + e);
+				//System.out.println("Error in validating zip message on Step1 page " + e);
 				okButtonValidationPopUp.click();
 			}
 
@@ -652,7 +652,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 
 			}catch(Exception e){
-				System.out.println("Error in validating Month required messages on Personal Information Page "+e);
+				//System.out.println("Error in validating Month required messages on Personal Information Page "+e);
 				okButtonValidationPopUp.click();
 
 			}
@@ -666,7 +666,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 
 			}catch(Exception e){
-				System.out.println("Error in validating Day required messages on Personal Information Page "+e);
+				//System.out.println("Error in validating Day required messages on Personal Information Page "+e);
 				okButtonValidationPopUp.click();
 
 			}
@@ -680,7 +680,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 
 			}catch(Exception e){
-				System.out.println("Error in validating Year required messages on Personal Information Page "+e);
+				//System.out.println("Error in validating Year required messages on Personal Information Page "+e);
 				okButtonValidationPopUp.click();
 
 			}
@@ -752,7 +752,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			fullPaymentPlanRadioOnPaymentInformationPage.isDisplayed();
 			fullPaymentPlanRadioLabelOnPaymentInformationPage.isDisplayed();
 			courseCost = totalAmountFullPaymentPlanRadioOnPaymentInformationPage.getText();
-			System.out.println(totalAmountFullPaymentPlanRadioOnPaymentInformationPage.getText());
+			//System.out.println(totalAmountFullPaymentPlanRadioOnPaymentInformationPage.getText());
 			secureTransactionImageFooterOnPaymentInformationPage.isDisplayed();
 			Reporter.log(Utilities.logOutputFile("Verify Mode of Payment display on Payment Information Page - PASS"));
 			
@@ -788,7 +788,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 				return true;
 			}else{
-				System.out.println(str);
+				//System.out.println(str);
 			}
 			
 			
@@ -808,7 +808,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 				Assert.assertTrue(accountNumbersavingsAccountOnPaymentInformationPage.isDisplayed());
 			}catch(Exception e)
 			{
-				System.out.println("Unable to verify Elements display on Payment Information Page --> "+e);
+				//System.out.println("Unable to verify Elements display on Payment Information Page --> "+e);
 			}
 				
 				
@@ -850,7 +850,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 			}catch(Exception e)
 			{
-				System.out.println("Unable to verify Elements display on Payment Information Page --> "+e);
+				//System.out.println("Unable to verify Elements display on Payment Information Page --> "+e);
 			}
 			}
 		}
@@ -880,7 +880,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			
 			try{
                                 String firstName = textboxFirstNameCreditCardOnPaymentInformationPage.getAttribute("value");
-                                System.out.println("firstname is" +firstName);
+                                //System.out.println("firstname is" +firstName);
 				textboxFirstNameCreditCardOnPaymentInformationPage.clear();
                                 String lastName = textboxLastNameCreditCardOnPaymentInformationPage.getAttribute("value");
                                 textboxLastNameCreditCardOnPaymentInformationPage.clear();
@@ -914,7 +914,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 				
 			}catch(Exception e){
-				System.out.println("Error in validating all empty messages on Payment Information Page "+e);
+				//System.out.println("Error in validating all empty messages on Payment Information Page "+e);
 				okbuttonDisplayonPaymentInfoPage.click();
 				
 			}
@@ -937,7 +937,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 				
 			}catch(Exception e){
-				System.out.println("Error in validating Enter first name messages on Payment Information Page "+e);
+				//System.out.println("Error in validating Enter first name messages on Payment Information Page "+e);
 				okbuttonDisplayonPaymentInfoPage.click();
 				
 			}
@@ -952,7 +952,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 				
 			}catch(Exception e){
-				System.out.println("Error in validating Enter last name messages on Payment Information Page "+e);
+				//System.out.println("Error in validating Enter last name messages on Payment Information Page "+e);
 				okbuttonDisplayonPaymentInfoPage.click();
 				
 			}
@@ -967,7 +967,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 				
 			}catch(Exception e){
-				System.out.println("Error in validating Enter address messages on Payment Information Page "+e);
+				//System.out.println("Error in validating Enter address messages on Payment Information Page "+e);
 				okbuttonDisplayonPaymentInfoPage.click();
 				
 			}
@@ -982,7 +982,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 				
 			}catch(Exception e){
-				System.out.println("Error in validating city messages on Payment Information Page "+e);
+				//System.out.println("Error in validating city messages on Payment Information Page "+e);
 				okbuttonDisplayonPaymentInfoPage.click();
 				
 			}
@@ -997,7 +997,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 				
 			}catch(Exception e){
-				System.out.println("Error in validating zip code messages on Payment Information Page "+e);
+				//System.out.println("Error in validating zip code messages on Payment Information Page "+e);
 				okbuttonDisplayonPaymentInfoPage.click();
 				
 			}
@@ -1011,7 +1011,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 
 				
 			}catch(Exception e){
-				System.out.println("Error in validating Enter Credit Card no. messages on Payment Information Page "+e);
+				//System.out.println("Error in validating Enter Credit Card no. messages on Payment Information Page "+e);
 				okbuttonDisplayonPaymentInfoPage.click();
 				
 			}
@@ -1024,7 +1024,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 				textboxCVVCreditCardOnPaymentInformationPage.sendKeys(CVV);
                                 
 			}catch(Exception e){
-				System.out.println("Error in validating Enter CVV no. messages on Payment Information Page "+e);
+				//System.out.println("Error in validating Enter CVV no. messages on Payment Information Page "+e);
 				okbuttonDisplayonPaymentInfoPage.click();	
 			}
 			
@@ -1067,7 +1067,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			}
 			else
 			{
-				System.out.println(p1.getText());
+				//System.out.println(p1.getText());
 				result = false;
 				Reporter.log(Utilities.logOutputFile("Information Display under Personal Information Heading - FAIL "));
 
@@ -1087,7 +1087,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			}
 			else
 			{
-				System.out.println(p2.getText());
+				//System.out.println(p2.getText());
 				result = false;
 				Reporter.log(Utilities.logOutputFile("Information Display under Program Information Heading - FAIL "));
 
@@ -1105,7 +1105,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 				}
 				else
 				{
-					System.out.println(p3.getText());
+					//System.out.println(p3.getText());
 					result = false;
 					Reporter.log(Utilities.logOutputFile("Information Display under Payment Information Heading - FAIL "));
 
@@ -1121,7 +1121,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 				}
 				else
 				{
-					System.out.println(p3.getText());
+					//System.out.println(p3.getText());
 					result = false;
 					Reporter.log(Utilities.logOutputFile("Information Display under Payment Information Heading - FAIL "));
 
@@ -1134,7 +1134,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			
 			try{
 				List<WebElement> editButton = driver.findElements(By.xpath(".//input[@value='Edit']"));
-				System.out.println(editButton.size());
+				//System.out.println(editButton.size());
 				
 				
 				
@@ -1191,7 +1191,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 					Assert.assertTrue(m.getText().contains("XXXXXXXXXXXX1111"));				
 				}else{
 					m = check.get(17);
-					System.out.println("#### "+m.getText());
+					//System.out.println("#### "+m.getText());
 					String accountnumber = Utilities.getYamlValue("DomesticURLEnrollNow.AccountNumber");
 					Assert.assertTrue(m.getText().contains("XXX") && m.getText().contains(accountnumber.subSequence(accountnumber.length()-4, accountnumber.length())));
 				}
@@ -1201,12 +1201,11 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 				if (Utilities.getYamlValue("DomesticURLEnrollNow.PaymentMode").equalsIgnoreCase("Credit or Debit Card"))
 				{
 					m = check.get(19);
-					System.out.println("#### "+m.getText());
+					//System.out.println("#### "+m.getText());
 					Assert.assertTrue(m.getText().contains("$0.00"));				
 				}else{
 					m = check.get(18);
-					System.out.println("#### "+m.getText());
-					String accountnumber = Utilities.getYamlValue("DomesticURLEnrollNow.AccountNumber");
+					//System.out.println("#### "+m.getText());
 					Assert.assertTrue(m.getText().contains("$0.00"));
 				}
 				
@@ -1214,7 +1213,7 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 			}catch(Exception e){
 				for(WebElement FetchValue : check)
 				{
-					System.out.println(FetchValue.getText());
+					//System.out.println(FetchValue.getText());
 				}
 			}
 						
@@ -1261,8 +1260,8 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 					} 
 					catch(Exception e){				
 						
-						System.out.println(e);
-						System.out.println("Error in validating fields "+e);			
+						//System.out.println(e);
+						//System.out.println("Error in validating fields "+e);			
 					}
 					textboxFullNameOnElectronicSigAgreement.sendKeys(FullName);
 					textboxEmailOnElectronicSigAgreement.sendKeys(email+"@"+Utilities.getYamlValue("DomesticURLEnrollNow.StudentInformation.EmailExt"));
@@ -1287,8 +1286,8 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 						} 
 						catch(Exception e){				
 							
-							System.out.println(e);
-							System.out.println("Error in validating fields "+e);			
+							//System.out.println(e);
+							//System.out.println("Error in validating fields "+e);			
 						}
 					ClickToSignInOnElectronicSigAgreement.click();
 					WebDriverWait wait1 = new WebDriverWait(driver, 50);
@@ -1311,25 +1310,25 @@ public class EOLEnrollNow_UI  extends AbstractClass{
 						} 
 						catch(Exception e){				
 							
-							System.out.println(e);
-							System.out.println("Error in validating fields "+e);			
+							//System.out.println(e);
+							//System.out.println("Error in validating fields "+e);			
 						}
 					ClickToContinueInOnElectronicSigAgreement.click();
 					clickHereLinkOnCongratulationsPage.isDisplayed();
 					Reporter.log(Utilities.logOutputFile(" Final Student ID is "+getStudentIDFromCongratulationsPage.getText()+" - Pass"));
 					
-					System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
+					//System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
 					
 				} else {
 				noLinkonDisplayOnElectronicSignature.click();
 				clickHereLinkOnCongratulationsPage.isDisplayed();
 				Reporter.log(Utilities.logOutputFile(" Final Student ID is "+getStudentIDFromCongratulationsPage.getText()+" - Pass"));
 				
-				System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
+				//System.out.println("$$$$$$$$$$  Completed Student ID is --> "+getStudentIDFromCongratulationsPage.getText());
 				}
 			}catch(Exception e){				
 				
-				System.out.println(e);
+				//System.out.println(e);
 				WebDriverWait wait = new WebDriverWait(driver, 50);
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//b[contains(text(),'Congratulations')]")));
 				

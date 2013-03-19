@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">12</td><td class="numi">12</td><td class="numi">0</td><td class="numi">0</td><td class="numi">209.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="12">com.jav.Domestic.tests.EOLDomesticEnrollNow_Test<td><a href="#m1"><b>setup</b>  </a></td><td class="numi">1</td><td>1363675322108</td><td class="numi">5256</td></tr><tr class="passedodd"><td><a href="#m2"><b>launchHomePage</b>  </a></td><td class="numi">1</td><td>1363675327369</td><td class="numi">5965</td></tr><tr class="passedodd"><td><a href="#m3"><b>homePageactions</b>  </a></td><td class="numi">1</td><td>1363675333337</td><td class="numi">7030</td></tr><tr class="passedodd"><td><a href="#m4"><b>enterRemaningInformationOnPersonalInformatoinPage</b>  </a></td><td class="numi">1</td><td>1363675340387</td><td class="numi">28110</td></tr><tr class="passedodd"><td><a href="#m5"><b>verifyredirectToPaymentInformationPage</b>  </a></td><td class="numi">1</td><td>1363675368500</td><td class="numi">379</td></tr><tr class="passedodd"><td><a href="#m6"><b>verifyElementsDisplayOnPaymentInformation</b>  </a></td><td class="numi">1</td><td>1363675368880</td><td class="numi">964</td></tr><tr class="passedodd"><td><a href="#m7"><b>selectModeOfPaymentandProvideInformation</b>  </a></td><td class="numi">1</td><td>1363675369845</td><td class="numi">7250</td></tr><tr class="passedodd"><td><a href="#m8"><b>verifyElementsDisplayAfterSelectModeOfPayment</b>  </a></td><td class="numi">1</td><td>1363675377098</td><td class="numi">30195</td></tr><tr class="passedodd"><td><a href="#m9"><b>enterCreditCardInformation</b>  </a></td><td class="numi">1</td><td>1363675407294</td><td class="numi">5732</td></tr><tr class="passedodd"><td><a href="#m10"><b>verifyElementsDisplayOnReviewAndSubmitPage</b>  </a></td><td class="numi">1</td><td>1363675413029</td><td class="numi">9145</td></tr><tr class="passedodd"><td><a href="#m11"><b>verifyEditButtonOnReviewAndSubmit</b>  </a></td><td class="numi">1</td><td>1363675422177</td><td class="numi">66350</td></tr><tr class="passedodd"><td><a href="#m12"><b>verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage</b>  </a></td><td class="numi">1</td><td>1363675488529</td><td class="numi">40082</td></tr>
+</table>
+<h1>Default test</h1>
+<a id="m1"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyredirectToPaymentInformationPage</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:48 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:48 IST Verify Promo COde Link display on Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:selectModeOfPaymentandProvideInformation</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:12:49 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:56 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:57 IST Select creadit card option display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:57 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:setup</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:12:02 IST  ########## Start browser session STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:07 IST  ########## Start browser session ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyElementsDisplayOnReviewAndSubmitPage</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:13:33 IST  ########## Start Enter CreditCard Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:13:40 IST Verify redirect user to review & submit page - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:40 IST Information Display under Personal Information Heading - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:41 IST Information Display under Program Information Heading - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:41 IST Information Display under Payment Information Heading - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:42 IST  ########## Start Enter CreditCard Information ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyElementsDisplayAfterSelectModeOfPayment</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:12:57 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:13:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyEditButtonOnReviewAndSubmit</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:13:42 IST  ########## Start Verify Edit botton On Review and Submit Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:13:48 IST  Enter Information on Step1 page - Pass
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter First Name --] Final
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter Last Name  --] cen
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter Email  --] mail191201754@pennfoster.com
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter Phone Number  --] (248)246-1109
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter Address  --] 925 Oak St
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter City  --] Scranton
+<br><br/>
+Tue, 19 Mar 2013 12:13:57 IST  Enter Zip  --] 18515
+<br><br/>
+Tue, 19 Mar 2013 12:14:00 IST Enter DOB on personal Inforation page MM:DD:YYY format --] 04101987
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST Verify Promo COde Link display on Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST Verify Step Text - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:06 IST Verify Footer Image Secure Transaction - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST Select creadit card option display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:07 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:08 IST Verify form display under creadit card on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:08 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:08 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:13 IST Enter information in creadit card form
+<br><br/>
+Tue, 19 Mar 2013 12:14:14 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br><br/>
+Tue, 19 Mar 2013 12:14:14 IST Enter CVV number in creadit card form is -- ] 000
+<br><br/>
+Tue, 19 Mar 2013 12:14:14 IST Select Expiry date of creadit card - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:14 IST Click on Proceed to Final Step button - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:14 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST Verify Promo COde Link display on Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST Verify Step Text - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST Verify Footer Image Secure Transaction - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:25 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:26 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:26 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:26 IST Select creadit card option display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:26 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:26 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:27 IST Verify form display under creadit card on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:27 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:32 IST Enter information in creadit card form
+<br><br/>
+Tue, 19 Mar 2013 12:14:32 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br><br/>
+Tue, 19 Mar 2013 12:14:32 IST Enter CVV number in creadit card form is -- ] 000
+<br><br/>
+Tue, 19 Mar 2013 12:14:32 IST Select Expiry date of creadit card - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:33 IST Click on Proceed to Final Step button - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:33 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST  ########## Start Enter Remaning Information On Personal Informatoin Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST Verify Course Name display on page i.e. PENN FOSTER HIGH SCHOOL - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST Verify Promo COde Link display on Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST Verify Step Text - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:40 IST Verify Footer Image Secure Transaction - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Elements Display On Payment Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST Verify Options diplsy under Full Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST Select creadit card option display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:41 IST  ########## Start Verify Elements Display On Payment Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:42 IST  ########## Start Select Mode Of Payment and Provide Information STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:43 IST Verify form display under creadit card on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:14:43 IST  ########## Start Select Mode Of Payment and Provide Information ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:43 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST Enter information in creadit card form
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST Enter CVV number in creadit card form is -- ] 000
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST Select Expiry date of creadit card - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST Click on Proceed to Final Step button - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Edit botton On Review and Submit Page ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:homePageactions</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:12:13 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:20 IST Click on Receive Information (No course) - Pass
+<br><br/>
+Tue, 19 Mar 2013 12:12:20 IST  Penn Foster School Image Verify - Pass
+<br><br/>
+Tue, 19 Mar 2013 12:12:20 IST  ########## Start Launch Home Page ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:enterRemaningInformationOnPersonalInformatoinPage</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:12:20 IST  ########## Start Enter Information On Personal Informatoin Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:20 IST  Enter Information on Step1 page - Pass
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter First Name --] Final
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter Last Name  --] cen
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter Email  --] mail191201754@pennfoster.com
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter Phone Number  --] (248)246-1109
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter Address  --] 925 Oak St
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter City  --] Scranton
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST  Enter Zip  --] 18515
+<br><br/>
+Tue, 19 Mar 2013 12:12:30 IST Enter DOB on personal Inforation page MM:DD:YYY format --] 04101987
+<br><br/>
+Tue, 19 Mar 2013 12:12:48 IST  ########## Start Enter Remaning Information On Personal Informatoin Page ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:enterCreditCardInformation</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:13:27 IST  ########## Start Verify Elements Display After Select Mode Of Payment STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:13:32 IST Enter information in creadit card form
+<br><br/>
+Tue, 19 Mar 2013 12:13:32 IST Enter Credit Card number in creadit card form is -- ] 4111111111111111
+<br><br/>
+Tue, 19 Mar 2013 12:13:32 IST Enter CVV number in creadit card form is -- ] 000
+<br><br/>
+Tue, 19 Mar 2013 12:13:32 IST Select Expiry date of creadit card - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:32 IST Click on Proceed to Final Step button - PASS 
+<br><br/>
+Tue, 19 Mar 2013 12:13:33 IST  ########## Start Verify Elements Display After Select Mode Of Payment ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyElementsDisplayOnPaymentInformation</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:12:48 IST  ########## Start Verify Redirect To Payment Information Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:49 IST Verify Step Text - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:49 IST Verify Footer Image Secure Transaction - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:49 IST Verify Mode of Payment display on Payment Information Page - PASS
+<br><br/>
+Tue, 19 Mar 2013 12:12:49 IST  ########## Start Verify Redirect To Payment Information Page ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:launchHomePage</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:12:07 IST  ########## Start Launch Home Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:12:13 IST  ########## Start Launch Home Page ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>com.jav.Domestic.tests.EOLDomesticEnrollNow_Test:verifyandClickOnTermAndConditionsDisplayOnReviewandSubmitPage</h2>
+<div style="padding-left:3em">
+Tue, 19 Mar 2013 12:14:48 IST  ########## Start Verify Elements Display On Review and Submit Page STARTS ###########
+<br><br/>
+Tue, 19 Mar 2013 12:15:28 IST  Final Student ID is 40476901 - Pass
+<br><br/>
+Tue, 19 Mar 2013 12:15:28 IST  ########## Start Verify Elements Display On Review and Submit Page ENDS ###########
+<br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
